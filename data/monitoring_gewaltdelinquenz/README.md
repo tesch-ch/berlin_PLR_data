@@ -6,7 +6,7 @@ Violent delinquency is divided into three themes: - Youth violence, - Domestic a
 - Fisbroker download WFS URL: https://gdi.berlin.de/services/wfs/gewaltdelinquenz (3 datasets)
   - overall violence
   - youth violence
-  - domestic and partnershop
+  - domestic and partnership
 
 ## Files
 - `violent_delinquency.csv`
