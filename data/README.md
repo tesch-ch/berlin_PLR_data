@@ -1,4 +1,3 @@
-Datasets added by christian...
+# Datasets
 
-- ideas
-  - `df.to_csv('adressen.csv', index=False, quoting=1)`: quoting arg would protect the strings of plr id, could be applied to all datasets...
+See subdirectories' readmes for more details.

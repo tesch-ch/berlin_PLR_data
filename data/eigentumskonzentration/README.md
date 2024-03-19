@@ -1,5 +1,5 @@
 # Eigentumskonzentration Berlin 2022
-At the level of planning areas, the proportion of land and soil owned by individual owners (natural persons), community-oriented owners, cooperatives, legal entities, and municipal housing companies is evaluated from the property cadastre. Important peculiarities or restrictions for interpreting the data are listed under "Content Description."  
+At the level of planning areas, the proportion of land and soil owned by individual owners (natural persons), community-oriented owners, cooperatives, legal entities, and municipal housing companies is evaluated from the property dataset.
 
 --> It's about "who owns soil"... Not who owns which percentage of apartments etc...
 
