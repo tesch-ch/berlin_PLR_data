@@ -17,7 +17,7 @@ The Monitoring of Social Urban Development (MSS) serves the detailed observation
 ## Files
 - `mss_2021.csv`: all features described in the features section but K08, K14, and K15 ("new" PLR convention with 542 areas)
 - `mss_2021_easy.csv`: same as above, but with easier understood feature naming convention
-- `mss_2021_k_08_14_15.csv`: K08, K14, and K15 ("old" PLR convention with 447 areas)
+- `mss_2021_k_08_14_15_old_plr.csv`: K08, K14, and K15 **("old" PLR convention with 447 areas, do not merge with other datasets)**
 
 ## Source
 - MSS is split over multiple files and can be downloaded [here](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/tabellen/#Index)
