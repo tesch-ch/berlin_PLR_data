@@ -1,9 +1,11 @@
 # Monitoring Gewaltdelinquenz / Violent Delinquency
 Violent delinquency is divided into three themes: - Youth violence, - Domestic and partnership violence, - Total violent offenses. The data come from the Berlin Monitoring of Violent Delinquency and reflect the recorded violent offenses in terms of violence exposure by standard deviation at the level of Life-World Oriented Spaces (LOR).
 
+- Date: 2023
+- Columns (easy file): PLR_NAME,PLR_ID,Violent Delinquency Overall,Domestic and Partner Violence,Youth Violence
 - Granularity: PLR (new LOR)
 - Verbose documentation on data [here](https://camino-werkstatt.de/downloads/Berliner-Monitoring-Gewaltdelinquenz-2023-Teil-1.pdf)
-- Fisbroker download WFS URL: https://gdi.berlin.de/services/wfs/gewaltdelinquenz (3 datasets)
+- WFS endpoint: https://gdi.berlin.de/services/wfs/gewaltdelinquenz (contains 3 datasets)
   - overall violence
   - youth violence
   - domestic and partnership

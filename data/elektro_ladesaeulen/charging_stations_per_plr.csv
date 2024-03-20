@@ -1,4 +1,4 @@
-PLR_ID,PLR_NAME,charging_stations,charging_points,combined_power
+PLR_ID,PLR_NAME,charging_stations,charging_points,combined_power_kW
 01100101,Stülerstraße,3.0,6.0,110.0
 01100102,Großer Tiergarten,35.0,40.0,693.0
 01100103,Lützowstraße,5.0,13.0,165.0

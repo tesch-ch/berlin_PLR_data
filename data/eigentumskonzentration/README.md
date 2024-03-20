@@ -3,10 +3,11 @@ At the level of planning areas, the proportion of land and soil owned by individ
 
 --> It's about "who owns soil"... Not who owns which percentage of apartments etc...
 
-- 2022 November
-- https://daten.berlin.de/datensaetze/eigentumskonzentration-berlin-2022-wfs
-- https://fbinter.stadt-berlin.de/fb_daten/beschreibung/es_daten.html
-- https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_es_daten_2022
+- Columns: PLR_ID,PLR_NAME,wohmi_fl,nat_pers,genossen,jur_pers,sozvermiet,stwbg,jp_ohn_swg
+- Date: 2022 November
+- Berlin Open Data: https://daten.berlin.de/datensaetze/eigentumskonzentration-berlin-2022-wfs
+- FisBroker: https://fbinter.stadt-berlin.de/fb_daten/beschreibung/es_daten.html
+- WFS endpoint: https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_es_daten_2022
 
 ## Features
 - PLR_ID
