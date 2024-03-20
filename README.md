@@ -63,4 +63,4 @@ Spatial data is available via this WFS API and there is no direct/simple way of 
 Unlike in the tutorial, sometimes you won't find the exact link to the WFS endpoint. So, just copy the WFS endpoint part of the link. Example:  
 From `https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_adressenberlin?REQUEST=GetCapabilities&SERVICE=wfs` simply copy `https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_adressenberlin` as WFS connection URL to QGIS.
 
---> In this repository you can find an xml export of all the WFS connections to the dataset provided [here](auxiliary/qgis_wfs_connections). This xml file can be directly imported by QGIS.
+--> [Here](auxiliary/qgis_wfs_connections) you can find an xml export of all the WFS connection URLs to the raw datasets. This xml file can be directly imported by QGIS.
