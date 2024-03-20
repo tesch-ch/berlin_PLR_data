@@ -11,6 +11,7 @@ Each space is called a Planungsraum (PLR) and features a mean resident count of 
 **Attention:** Each PLR has its unique ID (column `PLR_ID` in all the datasets). Also, each PLR has a name (column `PLR_NAME` in the datasets), and within the names there is a duplicate ("Schloßstraße"). This is not a mistake, there simply are two different PLRs with the same name. So, do not merge datasets based on `PLR_NAME`, always **merge on `PLR_ID` when combining datasets**!
 
 ## Datasets
+
 - Addresses / Adressen: All addresses in Berlin with their respective PLR (no PLR granularity). Can be used for finding an address' PLR.
 - Pharmacy Locations / Apothekenstandorte: All pharmacies in Berlin per PLR
 - Land ownership / Eigentumskonzentration: Who (natural persons, cooperatives, ...) owns land, not who owns apartments per PLR.
@@ -24,6 +25,7 @@ Each space is called a Planungsraum (PLR) and features a mean resident count of 
 - PLR: geojson (read with geopandas), containing PLRs with their respective geometry. Used e.g. for plotting heatmaps.
 - Schools / Schulen: Schools per PLR, contains names, types, carriers etc...
 
+**Checkout the [rendered demo](https://nbviewer.org/github/tesch-ch/berlin_PLR_data/blob/main/demo.ipynb) with its interactive maps, to get a feel for some of the data available.**
 
 ## Fundamentals and Getting Started
 - Datasets are already preprocessed and ready to go.
