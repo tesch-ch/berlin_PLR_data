@@ -50,14 +50,17 @@ There we merge datasets, create a heatmap and an interactive map, showcasing mul
 ![interactive map gif](auxiliary/animation_cropped.gif)
 
 
-## How and Where Were the Raw Datasets Obtained?
-The source datasets were obtained from [daten.berlin.de](https://daten.berlin.de/) or [FIS-Broker](https://fbinter.stadt-berlin.de/fb/) respectively. Data often WFS...
-Have a look at the readme in the dataset's respective directory for specific details and links.  
-How did it work in detail?
-https://lab.technologiestiftung-berlin.de/projects/fisbroker-to-qgis/en/
+## Obtain More Datasets
+### Where can I find these?
+The raw datasets were obtained from [daten.berlin.de](https://daten.berlin.de/) or [FIS-Broker](https://fbinter.stadt-berlin.de/fb/) respectively.  
+On daten.berlin.de, you can find countless datasets about Berlin. In the search engine, try "LOR" or "PLR" if you want to find data associated with the LOR-system.
+On FIS-Broker, the link above takes you directly to an overview of all the spatial datasets in that app.
 
-## TODOs
-- link example to nbviewer https://nbviewer.org/
-- Create master dataset, that is a merge of all the plr granularity CSVs
-- proper translation of data directories?
-- completely translate all features?
+### How To Download Spatial Datasets
+If there is some sort of geometry associated to your data, you will not find a direct download link to an xlsx or csv file on [daten.berlin.de](https://daten.berlin.de/) or [FIS-Broker](https://fbinter.stadt-berlin.de/fb/). What you will get is a link to a WFS endpoint.  
+Spatial data is available via this WFS API and there is no direct/simple way of accessing it. So, you can use the free software [QGIS](https://www.qgis.org/en/site/) to establish a connection to the WFS endpoint and subsequently export what you will find here as raw data. This is in detail described [here](https://lab.technologiestiftung-berlin.de/projects/fisbroker-to-qgis/en/).
+
+Unlike in the tutorial, sometimes you won't find the exact link to the WFS endpoint. So, just copy the WFS endpoint part of the link. Example:  
+From `https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_adressenberlin?REQUEST=GetCapabilities&SERVICE=wfs` simply copy `https://fbinter.stadt-berlin.de/fb/wfs/data/senstadt/s_wfs_adressenberlin` as WFS connection URL to QGIS.
+
+--> In this repository you can find an xml export of all the WFS connections to the dataset provided [here](auxiliary/qgis_wfs_connections). This xml file can be directly imported by QGIS.
