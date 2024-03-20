@@ -70,7 +70,6 @@ The Monitoring of Social Urban Development (MSS) serves the detailed observation
 ## Preprocessing
 - For all subsets
   - Drop columns that are all nan
-  - Remove PLR rows with nan entries (not enough residents...)
   - Create list of relevant features
 - Join all features except KI_08, KI_14, and KI_15 to the file `mss_2021.csv`
 - Safe KI_08, KI_14, and KI_15 to `mss_2021_k_08_14_15.csv`
