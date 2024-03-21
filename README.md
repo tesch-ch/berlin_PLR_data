@@ -6,6 +6,7 @@ Each space is called a Planungsraum (PLR) and features a mean resident count of 
 <p align="center">
   <img src="auxiliary/plr.png">
 </p>
+
 --> Each row in the preprocessed datasets corresponds to one of these PLRs. The columns correspond to per PLR features, such as unemployment rate, energy consumption, number of schools, etc...  
 --> PLRs are the finest granular spaces of a hierarchical system that is called LOR (lebensweltlich orientierte Räume = lifeworld oriented spaces) which is in detail described [here](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/).  
 --> PLRs (LOR in general) are in use since before 2021, but beware, the system was reorganized in 2021. So, pre 2021 PLR datasets have a different total PLR count (447) and different geometry per PLR. This is nothing you have to worry about with the datasets you'll find here. 
