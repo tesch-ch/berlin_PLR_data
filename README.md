@@ -3,7 +3,9 @@ Hassle free access to Berlin data, ready to go csv tabular datasets (geometry av
 This repository contains various preprocessed datasets related to Berlin, with a specific focus on the city's PLRs (Planungsräume = planning spaces).
 As of 2021, Berlin monitors social and demographic changes by dividing the city into 542 of said spaces.
 Each space is called a Planungsraum (PLR) and features a mean resident count of approximately 7,000. The following figure shows Berlin with its 542 PLRs (interactive map [here](https://nbviewer.org/github/tesch-ch/berlin_PLR_data/blob/main/auxiliary/plr_visu.ipynb)):  
-![Berlin with its 542 PLRs](auxiliary/plr.png)  
+<p align="center">
+  <img src="auxiliary/plr.png">
+</p>
 --> Each row in the preprocessed datasets corresponds to one of these PLRs. The columns correspond to per PLR features, such as unemployment rate, energy consumption, number of schools, etc...  
 --> PLRs are the finest granular spaces of a hierarchical system that is called LOR (lebensweltlich orientierte Räume = lifeworld oriented spaces) which is in detail described [here](https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/sozialraumorientierte-planungsgrundlagen/lebensweltlich-orientierte-raeume/).  
 --> PLRs (LOR in general) are in use since before 2021, but beware, the system was reorganized in 2021. So, pre 2021 PLR datasets have a different total PLR count (447) and different geometry per PLR. This is nothing you have to worry about with the datasets you'll find here. 
