@@ -1,9 +1,9 @@
 # Monitoring Soziale Stadtentwicklung 2021
 The Monitoring of Social Urban Development (MSS) serves the detailed observation of changes in the socio-structural development in the subareas of the city of Berlin.  
 
-- main page: https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/
+- Main page: https://www.berlin.de/sen/sbw/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/
 - PLR granularity
-- features such as
+- Features such as
   - unemployment
   - social benefits
   - child poverty
@@ -11,6 +11,7 @@ The Monitoring of Social Urban Development (MSS) serves the detailed observation
   - public living spaces
   - respective dynamics
   - ...
+- Features in mss_2021_easy: PLR_NAME,PLR_ID,Resident Count,Unemployment Percent,Social Benefits Receivers Percent,Child Poverty Percent,Change in Unemployment,Change in Social Benefits Receivers,Change in Child Poverty,Status Index num,Status Index verb,Dynamics Index num,Dynamics Index verb,Status Dynamics Index Value,Youth Unemployment,Single Parents,Old Age Poverty,Children Adolescents with Migration Background,Residents with Migration Background,Foreigners,Change in Foreigners Over Two Years,Non EU Foreigners,Foreign Transfer Recipients SGB II,Residents in Simple Living Conditions,Residence Duration Over Five Years,Migration Volume,Total Migration Balance,Migration Balance Children Under 6 Years
 - There are approx 10 PLR (i.e. nan rows) with invalid entries (not enough inhabitants)
 - **detailed feature description** [**here**](https://www.berlin.de/sen/sbw/_assets/stadtdaten/stadtwissen/monitoring-soziale-stadtentwicklung/bericht-2021/mss_2021_indikatorenheft_fortschreibung_langfassung.pdf?ts=1705017669)
 
