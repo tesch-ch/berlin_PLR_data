@@ -46,8 +46,10 @@ Each space is called a Planungsraum (PLR) and features a mean resident count of 
 
 These basic principles are illustrated in the [example_simple](example_simple.ipynb) Jupyter notebook (view online [here](https://nbviewer.org/github/tesch-ch/berlin_PLR_data/blob/main/example_simple.ipynb) with working interactive maps).
 There we merge datasets, create a heatmap and an interactive map, showcasing multiple features. All of this with just very few lines of code:  
-![heatmap unemployment](auxiliary/heatmap_unemployment.png)
-![interactive map gif](auxiliary/animation_cropped.gif)
+<p align="center">
+    <img width="380" src="auxiliary/heatmap_unemployment.png" >
+    <img width="380" src="auxiliary/animation_cropped.gif" >
+</p>
 
 
 ## Obtain More Datasets
